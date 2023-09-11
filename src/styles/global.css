@@ -40,7 +40,7 @@ h1 {
   top: 5rem;
   left: 48px;
   background-color: #ff9776;
-  display: block;
+  display: none;
   margin: 0;
 }
 
@@ -75,5 +75,9 @@ h1 {
   .nav-links a {
     display: inline-block;
     padding: 15px 20px;
+  }
+
+  .hamburger {
+    display: none;
   }
 }
